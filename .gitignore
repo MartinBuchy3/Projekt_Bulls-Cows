@@ -1,14 +1,12 @@
-# Ignorování složek s virtuálním prostředím
+# Ignorování systémového souboru .DS_Store
+.DS_Store
+
+# Ignorování složek s virtuálním prostředím, pokud existují
 venv/
 .venv/
 
-# Ignorování systémových a editorových souborů
+# Ignorování výstupních souborů Pythonu a dalších systémových souborů
 __pycache__/
-.DS_Store
-.idea/
-.vscode/
-
-# Ignorování souborů vytvořených systémem
 *.pyc
 *.pyo
 *.log
