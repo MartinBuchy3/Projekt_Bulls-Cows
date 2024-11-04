@@ -1,0 +1,14 @@
+# Ignorování složek s virtuálním prostředím
+venv/
+.venv/
+
+# Ignorování systémových a editorových souborů
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+
+# Ignorování souborů vytvořených systémem
+*.pyc
+*.pyo
+*.log
